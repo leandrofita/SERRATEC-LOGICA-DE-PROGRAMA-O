@@ -1,0 +1,23 @@
+Tipos de dados | atribuição
+Dissertativos
+Para cada informação abaixo, classifique segundo o tipo de dados.
+Quantidade de vendedores da loja (número inteiro)
+Nome da rua, com número e complemento (texto)
+Preço do etanol comum (numero real)
+Estado de iluminação de uma lâmpada (boleano)
+CEP do endereço, com hífen (texto)
+Mostrador com um dígito dentro do elevador, indicando o andar do prédio onde ele está passando (numero inteiro)
+Led que indica o pressionamento do botão do elevador (boleano)
+Data de aniversário do professor (data)
+Peso do prato na balança do restaurante (números reais)
+Número de bois no curral da fazenda (numero inteiro)
+Dia completo da páscoa nesse ano (data)
+Quantidade de laranjas na caixa (numero inteiro)
+Uma vogal minúscula (caractere)
+Título de um livro (texto)
+Limite do cartão de crédito (numero real)
+Horário de transmissão do jogo (data)
+Altura de um prédio (numero real)
+Páginas do caderno (numero inteiro)
+Sala de reunião está disponível (ou ocupada) (boleano)
+Alternativas do enunciado da questão de múltipla escolha (texto)
