@@ -1,5 +1,5 @@
 # Exercícios FaseZero
-1.	##Qual o fluxo de funcionamento do computador? Ou ainda, como devemos organizar nosso pensamento na hora de escrever algoritmos?## 
+1.	##Qual o fluxo de funcionamento do computador? Ou ainda, como devemos organizar nosso pensamento na hora de escrever algoritmos?##
 R: Entrada, processamento e saída. 
 
 2.	##Qual o algoritmo utilizado por estudantes, por tradição, para escrever seu primeiro programa?##
