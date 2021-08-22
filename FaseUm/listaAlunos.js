@@ -1,4 +1,4 @@
-console.log("Lista de Alunos")
+console.log("Lista de Alunos");
 let alunos = [
     'Viviane',
     'Victor',
@@ -38,4 +38,4 @@ let alunos = [
     'Adrian'
   ]
   
-  console.log(alunos)  // opção console.log(alunos.sort().reverse());
+  console.log(alunos);  // opção console.log(alunos.sort().reverse());
