@@ -1,15 +1,15 @@
 console.log('MÁQUINA DE REFRIGERANTES \n Por favor, escolha o sabor do seu refrigerante: ')
 
 var prompt = require('prompt-sync')();
-var coca1 = 4
-var fanta2 = 3
+var coca1 = 6
+var fanta2 = 1.99
 var guara3 = 3.50
 var pepsi4 = 3.99
 
 var cedula2 = 2
 var cedula5 = 5
 var cedula10 = 10
-var cedula50 = 50
+var cedula50 = 20
 
 var preço = 0
 var voltar = 'V' || 'v';
@@ -24,7 +24,7 @@ function comprar()
 
   while (negativo)  // loop enquanto essa condição se manter verdadeira...
   {
-    var pagamento =prompt('Pagamento:\n Escolha o valor da cédula:R$ \n- 2 \n- 5 \n- 10 \n- 50\n ->');
+    var pagamento =prompt('Pagamento:\n Escolha o valor da cédula:R$ \n- 2 \n- 5 \n- 10 \n- 20\n ->');
 
           if (pagamento == "2")
             pagamento = cedula2;
@@ -35,7 +35,7 @@ function comprar()
           if (pagamento == "10")
               pagamento = cedula10;
           else 
-          if (pagamento == "50")
+          if (pagamento == "20")
                 pagamento = cedula50;;
           if (pagamento == voltar) 
           {
