@@ -1,9 +1,5 @@
 # Exercícios FaseZero
-1.	##Qual o fluxo de funcionamento do computador? Ou ainda, como devemos organizar nosso pensamento na hora de escrever algoritmos?##
-<<<<<<< HEAD
-=======
-
->>>>>>> 679225b80dfe3c39d3c90bd9c740e4c6fba745b1
+1.	##Qual o fluxo de funcionamento do computador? Ou ainda, como devemos organizar nosso pensamento na hora de escrever algoritmos?## 
 R: Entrada, processamento e saída. 
 
 2.	##Qual o algoritmo utilizado por estudantes, por tradição, para escrever seu primeiro programa?##
@@ -15,11 +11,7 @@ R: crtl+s
 4.	##Quando criamos um novo programa JavaScript, como precisamos salvar os arquivos?##
 R: Com extensão .js
 
-<<<<<<< HEAD
-5. ##Podemos dizer que a linguagem da máquina é a mesma linguagem de programação? Justifique.##
-=======
 5.	##Podemos dizer que a linguagem da máquina é a mesma linguagem de programação? Justifique.##
->>>>>>> 679225b80dfe3c39d3c90bd9c740e4c6fba745b1
 R: Não, pois a linguagem de máquina se restringe à linguagem binária (de baxo nível) e a linguagem de programação consiste em um algoritmo (em uma linguagem específica de alto nível) que será convertida em linguagem de máquina pelo computador para executar um programa. 
 
 6.	##Segundo o professor, qual o percentual de importância do zero na programação?##
