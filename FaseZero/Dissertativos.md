@@ -1,3 +1,4 @@
+
 # Exercícios FaseZero
 1.	**Qual o fluxo de funcionamento do computador? Ou ainda, como devemos organizar nosso pensamento na hora de escrever algoritmos?** 
 R: Entrada, processamento e saída. 
@@ -19,4 +20,3 @@ R: Não, pois a linguagem de máquina se restringe à linguagem binária (de bax
 
 7.	**No editor de código, o que acontece ao digitar Shift + S?**
 R: S maiúsculo.
-
