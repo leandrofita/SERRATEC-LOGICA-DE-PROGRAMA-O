@@ -2,6 +2,8 @@
 Sexo: Feminino
 Ano de nascimento: 1999
 Cidadão emancipado? True */
+
+//PROFESSOR: Não consegui fazer O teste de feminino e masculino com entrada de dados sem usar o if...ele
 var prompt = require("prompt-sync")();
 var idade = 0
 idade = prompt('Qual o seu ano de nascimento? -> ');

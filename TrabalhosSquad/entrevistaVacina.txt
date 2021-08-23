@@ -1,0 +1,98 @@
+var prompt = require("prompt-sync")();
+var quantDose = 0
+var zeroDose = 0;
+var doseUm = 0;
+var doseUnica =0;
+var doseDois = 0;
+var quantEntrevistas = 0;
+var laboratorio = 0;
+var pfizer = 0;
+var corona = 0;
+var astra = 0;
+var jansen = 0;
+
+function imunizado () 
+        {
+        console.log('\nParabéns, você está imunizado! Continue se cuidando!');
+        };
+
+function qutDose() 
+        {
+            switch (quantDose) {
+                case "1":
+                    console.log('\nNão se esqueça da segunda dose!');
+                    doseUm++;            
+                    break;
+                case "2":
+                    imunizado();
+                    doseDois++;
+                default:
+                    break;
+            };
+        };
+
+   
+
+var entrevistado = console.log('Tudo pronto para começarmos a entrevista?');
+entrevistado = prompt();
+
+while (entrevistado == "S" || entrevistado == "s") {
+  
+    console.log('\nQuantas doses da vacina contra a COVID-19 você já tomou? Responda responda "0" (nenhuma) "1" (uma) ou "2" duas');
+    quantDose = prompt();
+     
+    if (quantDose == "0") {
+       console.log('\nVocê deve tomar a vacina, proteja as pessoas que você ama!');
+       zeroDose++;
+    }
+    
+    else {
+        console.log('\nQual vacina você tomou? - Responda  "1" (Pfizer) - "2" (Coronavac) - "3" (AstraZeneca) - "4" (Jansen) ');
+        laboratorio = prompt();
+    }
+        if (laboratorio == 1){
+            pfizer = 0;
+            pfizer++;
+            qutDose();
+            
+        }
+        if (laboratorio == 2){
+            corona = 0;
+            corona++;
+            qutDose();
+        
+        }
+        if (laboratorio == 3){
+            astra = 0;
+            astra++;
+            qutDose();
+        }   
+
+            if (laboratorio == 4){
+            jansen = 0;
+            jansen++;
+            doseUnica++;
+            imunizado();   
+        }     
+        
+          
+
+     
+    
+    console.log('\nHá mais alguém paser entrevistado? Responda "S" (sim) ou "N" (não): ');
+    entrevistado = prompt();
+    quantEntrevistas++     
+};    
+
+console.log('\n             Muito obrigado pela sua participação!');
+console.log('||========================================================================||');
+console.log('Hoje foi entrevistado um total de '+quantEntrevistas+' pessoa(s)!');
+console.log(doseUm+' pessoa(s) tomou(aram) apenas a primeira dose.');
+console.log(doseDois+' pessoa(s) já tomou(aram) a primeira e a segunda dose.');
+console.log(doseUnica+' pessoa(s) já está(ão) imunizada(s) com uma vacina de dose única.');
+console.log(zeroDose+' ainda não foi(ram) imunizada(s) com nenhuma das duas doses.');
+console.log('Um total de '+pfizer+' pessoa(s) foi(ram) imunizados com a Pfizer.');
+console.log('Um total de '+corona+' pessoa(s) foi(ram) imunizados com a Coronavac.');
+console.log('Um total de '+astra+' pessoa(s) foi(ram) imunizados com a AstraZeneca.');
+console.log('Um total de '+jansen+' pessoa(s) foi(ram) imunizados com a Jansen.');
+console.log('||========================================================================||');

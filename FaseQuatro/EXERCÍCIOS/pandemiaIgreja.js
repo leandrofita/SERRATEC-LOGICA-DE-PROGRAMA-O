@@ -6,29 +6,29 @@ Autorizar a entrada? False*/
 var prompt = require("prompt-sync")();
 
 var temper = prompt('Qual a temperatura? -> ');
-var protecao = prompt('Está usando máscara? S ou N-> ');
+var protecao = prompt('Está usando máscara? "S" ou "N"-> ');
 var requisito1 = true;
 var requisito2 = true;
 var febre = 37.6;
  
 
 
-if ((parseFloat(temper) >= febre))
-{
+if ((parseFloat(temper) >= febre)){
+
    requisito1 = false;
 }
 else{
     requisito1 = true;
 }
 
-  if ((protecao != 's') && (protecao != 'S'))
-  {
-   requisito2 = false;
-  }
-   else
-   {
-   requisito2 = true;
-   }
+if ((protecao != 's') && (protecao != 'S')){
+
+requisito2 = false;
+}
+else{
+
+requisito2 = true;
+}
    
    var entradaLiberada = (requisito1 == requisito2) == true;
    
