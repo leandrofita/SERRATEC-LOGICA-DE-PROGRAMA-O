@@ -13,16 +13,19 @@ var Pqualidade = "";
 
 function verdade() 
 {
-    var ano = prompt('Qual o ano do seu aniversário?');
+    console.log('Qual o ano do seu aniversário?');
+    var ano = prompt('->');
     console.log('Seu sígno é de: '+ signo +'!');
-    Pqualidade = prompt('Você gostou dos nossos serivços? Responda "S" para sim e "N" para não:\n-> ');
+    console.log('Você gostou dos nossos serivços? Responda "S" para sim e "N" para não: ')
+    Pqualidade = prompt('-> ');
     console.log("Muito obrigado pela sua resposta!\nA Culpa é das Estrelas agradece sua preferência!")
 }
 
 console.log('A Culpa é das Estrelas','\nSolução em Mapas Astrais!');
 var dia = prompt ('Qual o dia do seu aniversário?');
 
-var mes = prompt('Qual é a data do seu aniversário?\nPor favor, digite o número do seu mês sem o zero:\n->');
+console.log('Qual é a data do seu aniversário?\nPor favor, digite o número do seu mês sem o zero: ')
+var mes = prompt('-> ');
 
 
 

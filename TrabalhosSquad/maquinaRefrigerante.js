@@ -24,7 +24,8 @@ function comprar()
 
   while (negativo)  // loop enquanto essa condição se manter verdadeira...
   {
-    var pagamento =prompt('Pagamento:\n Escolha o valor da cédula:R$ \n- 2 \n- 5 \n- 10 \n- 20\n ->');
+    console.log('Pagamento:\n Escolha o valor da cédula:R$ \n- 2 \n- 5 \n- 10 \n- 20')
+    var pagamento =prompt('-> ');
 
           if (pagamento == "2")
             pagamento = cedula2;
@@ -64,7 +65,8 @@ function comprar()
 
 
 for (let cont = 0 ; cont < 4 ; cont++) {
-  var sabor = prompt("Digite o número relativo ao sabor correspondente: \n 1 - Coca \n 2 - Fanta \n 3- Guaraná \n 4- Pepsi\n -> ");
+  console.log('Digite o número relativo ao sabor correspondente: \n 1 - Coca \n 2 - Fanta \n 3- Guaraná \n 4- Pepsi')
+  var sabor = prompt("-> ");
   //var sabor = "1";    
   if (sabor == "1") {
         console.log('Excelente escolha! Valor:R$',coca1);
@@ -86,7 +88,8 @@ for (let cont = 0 ; cont < 4 ; cont++) {
             preço = pepsi4
             } 
 
-  voltar = prompt('Digite "V" caso queira retornar para a seleção ou "C" para confirmar e prosseguir com a compra: \n->');
+  console.log('Digite "V" caso queira retornar para a seleção ou "C" para confirmar e prosseguir com a compra: ')
+  voltar = prompt('->');
   if ((voltar == 'C') || (voltar == 'c')) {
     comprar()  
       if (comprou = true){
