@@ -53,3 +53,18 @@ if (posicaoNome == -1){
     else{
         console.log('O aluno ' + nome + ' está na cadeira ' + posicaoNome + ' na listagem.' );
     }
+
+    // O total de presentes
+    var total = 0;
+    
+
+    for(var i =0; i < presenca.length; i++) {
+
+        //var presente = (presenca[i] == true); //pleonasmo, já que o If só é ativado se o valor for true.
+        
+        if(presenca[i]){
+            total++
+        }
+    }  
+
+    console.log('O total de presentes é: ' + total);

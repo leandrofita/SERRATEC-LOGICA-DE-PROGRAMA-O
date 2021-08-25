@@ -12,9 +12,9 @@ console.log("\n            ||=================================================||
 console.log(
   "\n ----> Dois intrépidos competidores farão 10 rodadas épicas de pique-esconde caótico!"
 );
-console.log("\n -------> O Player 1 irá usar as artimanhas do Caos para se esconder enquanto que o Player 2 tentará encontrá-lo!");
+console.log("\n -------> O Player 1 usará as artimanhas do Caos para se esconder enquanto que o Player 2 tentará encontrá-lo!");
 console.log("\n -------> Mas o Player 2 só terá uma oportunidade por rodada!");
-console.log("\n -------> Se o PLayer 1 for descoberto, ponto para Player 2, caso contrário, o Player 1 pontua!");
+console.log("\n -------> Se o PLayer 1 for descoberto, ponto para o Player 2, caso contrário, o Player 1 pontua!");
 console.log("\n -------> E aí?! Quem vencerá o desafio?");
 
 var prompt = require("prompt-sync")();
@@ -40,7 +40,7 @@ do {
     let tamanhoEsconderijo = esconderijo.length;
     let player1 = Math.floor(Math.random() * tamanhoEsconderijo); //TROCAR MATH.RANDOM POR 0.9
     player1 = esconderijo[player1];
-    console.log("O encondeirijo do Player 1 foi: " + player1);
+    console.log("O enconderijo do Player 1 foi: " + player1);
 
     let player2 = Math.floor(Math.random() * tamanhoEsconderijo);
     player2 = esconderijo[player2];
