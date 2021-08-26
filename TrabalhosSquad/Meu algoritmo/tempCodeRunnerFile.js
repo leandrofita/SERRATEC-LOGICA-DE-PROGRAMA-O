@@ -1,0 +1,1 @@
+Nenhuma opção válida selecionada - Por favor, reinicie a operação

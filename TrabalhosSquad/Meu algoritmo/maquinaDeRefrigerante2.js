@@ -1,5 +1,6 @@
 console.log(
-  "\nMÁQUINA DE REFRIGERANTES \n Olá, seja bem-vindo(a) ao nosso conso de auto-atendimento! \nPor favor, escolha o sabor do seu refrigerante: ");
+  "MÁQUINA DE REFRIGERANTES \n Por favor, escolha o sabor do seu refrigerante: "
+);
 
 var prompt = require("prompt-sync")();
 var coca1 = 6;
@@ -10,7 +11,7 @@ var pepsi4 = 3.99;
 var cedula2 = 2;
 var cedula5 = 5;
 var cedula10 = 10;
-var cedula20 = 20;
+var cedula50 = 20;
 
 var preço = 0;
 var voltar = "V" || "v";
@@ -24,21 +25,14 @@ function comprar() {
   while (negativo) {
     // loop enquanto essa condição se manter verdadeira...
     console.log(
-      "Pagamento:\n Escolha o valor da cédula:R$ \n- 2 \n- 5 \n- 10 \n- 20" );
+      "Pagamento:\n Escolha o valor da cédula:R$ \n- 2 \n- 5 \n- 10 \n- 20"
+    );
     var pagamento = prompt("-> ");
 
-    if (pagamento == "2") {
-      pagamento = cedula2}
-
-    if (pagamento == "5") {
-      pagamento = cedula5}
-
-    if (pagamento == "10") {
-       pagamento = cedula10}
-
-    if (pagamento == "20") {
-      pagamento = cedula20}
-
+    if (pagamento == "2") pagamento = cedula2;
+    else if (pagamento == "5") pagamento = cedula5;
+    else if (pagamento == "10") pagamento = cedula10;
+    else if (pagamento == "20") pagamento = cedula50;
     if (pagamento == voltar) {
     }
     var troco = pagamento - preço;
@@ -52,8 +46,7 @@ function comprar() {
       console.log(mensagem);
     } else {
       mensagem = "Seu troco é de: R$ "; // Não consegui exibir a mensagem incluindo a variável troco nessa linha.
-      var trocoArredondado = Math.round(troco* 100) / 100;
-      console.log(mensagem, trocoArredondado);
+      console.log(mensagem, troco);
       console.log(
         "\nObrigado pela sua compra!\nDelicie-se com seu refrigerante! :)"
       );
@@ -61,7 +54,6 @@ function comprar() {
     }
   }
 }
-
 
 for (let cont = 4; cont >= 0; cont--) {
   console.log(

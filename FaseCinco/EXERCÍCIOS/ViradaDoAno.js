@@ -2,7 +2,7 @@
 console.log('Contagem regressiva!');
 
 for (var i = 10; i >= 0; i--){
-var contagem = i
+var contagem = i;
 console.log(contagem);
 }
 
