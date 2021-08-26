@@ -1,0 +1,1 @@
+var verImparPar = ler("Quer ver os pares [P] ou ímpares [I]? ").toUpperCase();
