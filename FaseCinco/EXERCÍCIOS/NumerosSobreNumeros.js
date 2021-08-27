@@ -3,10 +3,11 @@ var prompt = require("prompt-sync")();
 
 var numero = parseInt(prompt('Insira um número: -> '))
 var soma = 0;
-for (numero; numero >= 1; numero--) {
-    var contagem = numero;
-    console.log(contagem);
-    soma = numero + numero
+for (var i = numero; i >= 1; i--) {
+    console.log(i);
+    soma += i; // a variável recebe ela mesma a cada volta do laço...
     
 }
 console.log(soma);
+
+
